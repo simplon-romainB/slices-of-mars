@@ -1,0 +1,8 @@
+{
+  "name": "slices of Mars",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "45d5eded"
+}
