@@ -1,21 +1,36 @@
+body
+{
+  margin: 0;
+  padding:0;
+}
+
 .marsweatherslide
 {
-  background-color: yellow;
-  height:33%;
+  margin: 0;
+  padding: 0;
+  height:33.33%;
   width:100%;
 }
 
 .marsphotoslide
 {
-  background-color: blue;
-  height: 33%;
+  margin: 0;
+  padding: 0;
+  background-color: yellow;
+  height: 33.33%;
   width:100%;
 
 }
 
 .marsnumberslide
 {
+  margin: 0;
+  padding: 0;
   background-color: red;
-  height: 33%;
+  height: 33.33%;
   width: 100%;
+}
+
+.swipable {
+
 }
