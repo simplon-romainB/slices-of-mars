@@ -8,32 +8,22 @@ import { AnimationController, GestureController, Gesture, Animation, GestureConf
 })
 export class AppComponent implements OnInit, AfterViewInit {
 
-  @ViewChild('paragraph') p: ElementRef;
-  @ViewChild('div') swipe: ElementRef;
+  private gestureX: any;
 
 
 
-  constructor(private gestctl: GestureController, private animationctl: AnimationController, private element: ElementRef) {
+  constructor() {
 
   }
   ngOnInit() {
 
   }
-
   async ngAfterViewInit() {
-    const options: GestureConfig = {
-      el: this.element.nativeElement,
-      gestureName: 'my-gesture',
-      onStart: ev => this.onMoveHandler(ev),
-      onMove: ev => console.log(ev)
-    };
-    const gesture: Gesture = await this.gestctl.create(options);
-		gesture.enable();
+
   }
 
 
-  private onMoveHandler(ev) {
-    console.log(ev);
+
   }
 
-}
+
